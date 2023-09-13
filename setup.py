@@ -5,14 +5,14 @@ long_description = open('README.md').read()
 setuptools.setup(
     name="libhomeseer",
     version="1.3.0",
-    author="Mark Coombes",
+    author="Mark Coombes- modified by Mike Scott",
     author_email="mark@markcoombes.ca",
     description="Python3 async library for interacting with HomeSeer HS3 and HS4 via JSON and ASCII",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/marthoc/libhomeseer",
     packages=['libhomeseer'],
-    install_requires=['asyncio', 'aiohttp'],
+    install_requires=['aiohttp'],
     classifiers=[
         "Intended Audience :: Developers",
         "Programming Language :: Python",
