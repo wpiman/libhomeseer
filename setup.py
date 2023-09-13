@@ -10,7 +10,7 @@ setuptools.setup(
     description="Python3 async library for interacting with HomeSeer HS3 and HS4 via JSON and ASCII",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/marthoc/libhomeseer",
+    url="https://github.com/wpiman/libhomeseer",
     packages=['libhomeseer'],
     install_requires=['aiohttp'],
     classifiers=[
